@@ -1,12 +1,49 @@
+#notas {
+    display: flex;
+    width: 100%;
+    border: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    background-color:  rgb(242, 239, 239);
+    border-radius: 10px;
+}
 
-/* 
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.tarea:hover button {
+    display: inline;
 
-*/
+}
+
+.container {
+    border-radius: 10px;
+    border: 1px solid rgb(213, 213, 213);
+    background-color:  rgb(0, 0, 0);
+   
+}
+
+#pendientes {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.419)
+}
+
+button {
+    display: none;
+    border: 0px;
+    background-color: black;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.324);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+hr {
+    color: white;
+}
