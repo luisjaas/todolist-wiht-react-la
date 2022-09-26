@@ -14,7 +14,7 @@ const Home = () => {
 
 	return (
 		<>
-			<div className="container center">
+			<div className="container">
 				<input 
 					id="notas"
 					type="text"
